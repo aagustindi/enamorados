@@ -1,12 +1,10 @@
-@import "compass/css3";
-
 @import url(https://fonts.googleapis.com/css?family=Poiret+One);
 $red : #D32F2F;
 
 body {
-    background-color: #ddd;
     font-family: 'Poiret One', Segoe UI Light, cursive;
-}
+    background: linear-gradient(to right, #ee9ca7, #ffdde1);
+    }
 
 #card {
     position: absolute;

@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Poiret+One);
 body {
-  background-color: #ddd;
   font-family: "Poiret One", Segoe UI Light, cursive;
+  background: linear-gradient(to right, #ee9ca7, #ffdde1);
 }
 
 #card {
@@ -24,7 +24,8 @@ body {
   border-radius: 50%;
   background-color: #D32F2F;
 }
-#card .heart #rec, #card .heart #rec2 {
+#card .heart #rec,
+#card .heart #rec2 {
   margin-top: -60px;
   width: 130px;
   height: 130px;
@@ -32,8 +33,10 @@ body {
   border-radius: 35% 0 0 0;
 }
 #card .heart #half2 {
-  -ms-transform: rotate(-90deg); /* IE 9 */
-  -webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
+  -ms-transform: rotate(-90deg);
+  /* IE 9 */
+  -webkit-transform: rotate(-90deg);
+  /* Chrome, Safari, Opera */
   transform: rotate(-90deg);
   margin-top: -330px;
   margin-left: -200px;
@@ -42,7 +45,8 @@ body {
   margin-top: -60px;
   margin-left: -130px;
 }
-#card #heart2 #circle, #card #heart2 #rec {
+#card #heart2 #circle,
+#card #heart2 #rec {
   background-color: #fff;
 }
 #card #heart2 #half2 #rec {
